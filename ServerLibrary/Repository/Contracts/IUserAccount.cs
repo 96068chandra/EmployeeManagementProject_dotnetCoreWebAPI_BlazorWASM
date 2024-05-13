@@ -13,5 +13,9 @@ namespace ServerLibrary.Repository.Contracts
 
         Task<GeneralRespose> CreateAsync(Register user);
         Task<LoginResponse> SingInAsync(Login user);
+
+
+        Task<LoginResponse> RefreshTokenAsync(RefreshToken token);
+
     }
 }

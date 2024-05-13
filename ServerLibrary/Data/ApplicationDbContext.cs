@@ -24,6 +24,8 @@ namespace ServerLibrary.Data
 
         public DbSet<UserRole> UserRoles { get; set; }
 
+        public DbSet<RefreshTokenInfo> RefreshTokenInfos { get; set; }
+
 
 
     }
